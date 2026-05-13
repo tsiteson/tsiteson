@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TsitesON</title>
+  <meta name="description"
+    content="TsitesON é uma agência criativa especializada em sites, landing pages e experiências digitais de alto impacto." />
+  <link rel="icon" href="logo.png" type="image/png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;600;700&family=Space+Grotesk:wght@400;500;700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- ───── LOADER ───── -->
+  <div id="loader" class="loader" aria-hidden="true">
+    <svg class="loader__ring" viewBox="0 0 100 100">
+      <circle cx="50" cy="50" r="44" />
+    </svg>
+    <img src="logo.png" alt="TsitesON" class="loader__logo" />
+  </div>
+
+  <!-- ───── NAV ───── -->
+  <header id="navbar" class="nav">
+    <a href="#" class="nav__brand" aria-label="TsitesON Home">
+      <img src="logo.png" alt="TsitesON" />
+    </a>
+    <nav class="nav__links" id="navLinks">
+      <a href="#hero" class="nav__link active" data-section="hero">Início</a>
+      <a href="#projects" class="nav__link" data-section="projects">Projetos</a>
+      <a href="#about" class="nav__link" data-section="about">Sobre</a>
+      <a href="#contact" class="nav__link" data-section="contact">Contato</a>
+    </nav>
+    <button class="nav__burger" id="burger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <!-- ───── MOBILE MENU ───── -->
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#hero" class="mobile-menu__link" data-close>Início</a>
+    <a href="#projects" class="mobile-menu__link" data-close>Projetos</a>
+    <a href="#about" class="mobile-menu__link" data-close>Sobre</a>
+    <a href="#contact" class="mobile-menu__link" data-close>Contato</a>
+  </div>
+
+  <main>
+
+    <!-- ───── HERO ───── -->
+    <section id="hero" class="hero">
+      <div class="hero__bg">
+        <img src="assets/hero-bg.png" alt="" class="hero__bg-img" />
+        <div class="hero__overlay"></div>
+      </div>
+
+      <div class="hero__content">
+        <h1 class="hero__title">
+          <span class="line"><span class="word">Criamos</span></span>
+          <span class="line"><span class="word">experiências</span></span>
+          <span class="line accent"><span class="word">digitais.</span></span>
+        </h1>
+        <p class="hero__sub">Sites, landing pages e soluções web que convertem visitantes em clientes.</p>
+        <a href="#projects" class="hero__cta">Ver projetos<span class="cta-arrow">&rarr;</span></a>
+      </div>
+
+      <div class="hero__scroll">
+        <span class="hero__scroll-line"></span>
+        <span class="hero__scroll-text">scroll</span>
+      </div>
+    </section>
+
+    <!-- ───── PROJECTS ───── -->
+    <section id="projects" class="projects">
+      <header class="section-head">
+        <span class="section-head__num">01</span>
+        <h2 class="section-head__title">Projetos</h2>
+        <div class="section-head__line"></div>
+      </header>
+
+      <div class="projects__gallery">
+
+        <!-- PROJECT 1 -->
+        <article class="proj" id="project-1">
+          <a href="https://tsiteson.github.io/chamaburguer/" class="proj__img-link" target="_blank" rel="noopener">
+            <div class="proj__img-wrap">
+              <img src="assets/project-01.png" alt="Chama Burger" class="proj__img" loading="lazy" />
+              <div class="proj__img-tint"></div>
+            </div>
+          </a>
+          <div class="proj__info">
+            <span class="proj__cat">Landing Page</span>
+            <h3 class="proj__name">Chama Burger</h3>
+            <p class="proj__desc">Landing page vibrante para uma hamburgueria artesanal, com menu interativo e
+              identidade visual marcante.</p>
+            <div class="proj__techs">
+              <span>HTML</span><span>CSS</span><span>JavaScript</span>
+            </div>
+            <a href="https://tsiteson.github.io/chamaburguer/" class="proj__link" target="_blank" rel="noopener">Ver
+              projeto <span>&rarr;</span></a>
+          </div>
+        </article>
+
+        <!-- PROJECT 2 -->
+        <article class="proj" id="project-2">
+          <a href="https://tsiteson.github.io/barbearianoir/" class="proj__img-link" target="_blank" rel="noopener">
+            <div class="proj__img-wrap">
+              <img src="assets/project-02.png" alt="Barbearia Noir" class="proj__img" loading="lazy" />
+              <div class="proj__img-tint"></div>
+            </div>
+          </a>
+          <div class="proj__info">
+            <span class="proj__cat">Landing Page</span>
+            <h3 class="proj__name">Barbearia Noir</h3>
+            <p class="proj__desc">Landing page elegante para uma barbearia premium, com design sofisticado e
+              experiência imersiva.</p>
+            <div class="proj__techs">
+              <span>HTML</span><span>CSS</span><span>JavaScript</span>
+            </div>
+            <a href="https://tsiteson.github.io/barbearianoir/" class="proj__link" target="_blank" rel="noopener">Ver
+              projeto <span>&rarr;</span></a>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ───── ABOUT ───── -->
+    <section id="about" class="about">
+      <header class="section-head">
+        <span class="section-head__num">02</span>
+        <h2 class="section-head__title">Sobre nós</h2>
+        <div class="section-head__line"></div>
+      </header>
+
+      <div class="about__intro">
+        <div class="about__text">
+          <p class="about__lead">Somos dois amigos apaixonados por tecnologia e design que decidiram transformar ideias
+            em experiências digitais.</p>
+          <p>A <strong>TsitesON</strong> nasceu da vontade de criar sites que realmente fazem a diferença — bonitos,
+            rápidos e que entregam resultados. Cada projeto é tratado como único, com atenção total aos detalhes.</p>
+        </div>
+      </div>
+
+      <div class="about__services">
+        <div class="service">
+          <div class="service__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+              stroke-linejoin="round">
+              <rect x="2" y="3" width="20" height="14" rx="2" />
+              <line x1="8" y1="21" x2="16" y2="21" />
+              <line x1="12" y1="17" x2="12" y2="21" />
+            </svg>
+          </div>
+          <h4>Sites & Landing Pages</h4>
+          <p>Desenvolvimento de sites responsivos e landing pages de alta conversão.</p>
+        </div>
+        <div class="service">
+          <div class="service__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+              stroke-linejoin="round">
+              <path d="M12 2L2 7l10 5 10-5-10-5z" />
+              <path d="M2 17l10 5 10-5" />
+              <path d="M2 12l10 5 10-5" />
+            </svg>
+          </div>
+          <h4>UI/UX Design</h4>
+          <p>Interfaces intuitivas que encantam e conduzem o usuário à ação.</p>
+        </div>
+        <div class="service">
+          <div class="service__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+              stroke-linejoin="round">
+              <polyline points="16 18 22 12 16 6" />
+              <polyline points="8 6 2 12 8 18" />
+            </svg>
+          </div>
+          <h4>Código Limpo</h4>
+          <p>Performance, SEO e boas práticas em cada linha de código.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ───── CONTACT ───── -->
+    <section id="contact" class="contact">
+      <header class="section-head section-head--light">
+        <span class="section-head__num">03</span>
+        <h2 class="section-head__title">Contato</h2>
+        <div class="section-head__line"></div>
+      </header>
+
+      <div class="contact__inner">
+        <p class="contact__lead">Tem um projeto em mente?<br />Vamos conversar.</p>
+        <div class="contact__channels">
+          <a href="https://wa.me/5521990070742" target="_blank" rel="noopener" class="contact__pill"
+            id="contact-whatsapp">
+            <svg viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+            </svg>
+            WhatsApp
+          </a>
+          <a href="https://www.instagram.com/tsiteson/" target="_blank" rel="noopener" class="contact__pill"
+            id="contact-instagram">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+              stroke-linejoin="round">
+              <rect x="2" y="2" width="20" height="20" rx="5" />
+              <circle cx="12" cy="12" r="5" />
+              <circle cx="17.5" cy="6.5" r="1.5" fill="currentColor" stroke="none" />
+            </svg>
+            Instagram
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ───── FOOTER ───── -->
+  <footer class="footer">
+    <img src="logo.png" alt="TsitesON" class="footer__logo" />
+    <p>&copy; 2026 TsitesON. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
